@@ -49,7 +49,7 @@ function draw() {
   if (snake.endGame()) {
     var boodschap=document.getElementById("boodschap")
     var typed = new Typed(boodschap, {
-      strings: ["W.", "Wil je echt een verschil maken,kom naar TFL"],
+      strings: ["W.", "Wil je echt een verschil maken,kom naar TFL. Klik op het logo om in te schrijven."],
       typeSpeed: 30
     });
     // var boodschap=document.getElementById("boodschap")
@@ -61,5 +61,5 @@ function draw() {
   
   noStroke();
   fill(255, 0, 0);
-  rect(food.x, food.y, random(1,3),random(1,3));
+  rect(food.x, food.y, random(1,2),random(1,2));
 }

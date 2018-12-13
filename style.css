@@ -27,8 +27,10 @@ canvas {
   }
 #link
   {
-      position: absolute;
-      z-index: -1;
-
+    position: absolute;
+    z-index: -2;
+    vertical-align: middle;
+    max-height: 30%;
   }
+
 
